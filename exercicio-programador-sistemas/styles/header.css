@@ -1,0 +1,23 @@
+@import url(s);
+
+.cabecalho{
+    font-family: var(--font-ubuntu);
+}
+.cabecalho-titulo-nome{
+    font-size: 40px;
+    color: var(--color-beige)
+}
+
+.cabecalho-lista{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.link-cabecalho{
+    color: var(--color-beige);
+    text-decoration: none;
+}
+

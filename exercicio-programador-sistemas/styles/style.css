@@ -1,0 +1,62 @@
+@import url("styles/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Concert+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --font-ubuntu: "Ubuntu Mono", monospace;
+  --font-segoe: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --color-light-blue: #4a65b4;
+  --font-franklin:
+}
+
+
+.titulo {
+  color: burlywood
+}
+
+
+.body {
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.301)),
+  url("../assets/giphy.gif");
+  background-size: cover;
+}
+
+.texto {
+  color: burlywood;
+  font-size: 20px
+}
+
+.lista {
+  font-size: larger;
+  color: antiquewhite;
+}
+
+.coisas {
+  color: rgb(247, 209, 160);
+}
+
+.fire {
+  width: 100%;
+  height: 50px;
+  background: url(assets/fire.gif) repeat;
+}
+
+.arco-iris {
+  font-size: 100px;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: mover-arcoiris 4s linear infinite;
+}
+
+@keyframes mover-arcoiris {
+  0% {
+    background-position: 0% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
+}
