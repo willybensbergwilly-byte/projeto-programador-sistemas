@@ -1,0 +1,5 @@
+produto = {
+    nome
+    preço
+    quantidade
+}
